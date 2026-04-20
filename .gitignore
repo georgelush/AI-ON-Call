@@ -1,0 +1,40 @@
+# Secrets - DO NOT commit!!!
+.env
+
+# Mediu virtual Python
+.venv/
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# LangGraph local checkpoints
+.langgraph_api/
+
+# SQLite persistent memory (contains user conversation data)
+memory.db
+memory.db-shm
+memory.db-wal
+
+# Labs curriculum — not included in On-Call solution repo
+labs/
+
+# Root README — Agentic AI Playground, not relevant for On-Call repo
+README.md
